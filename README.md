@@ -8,6 +8,9 @@
   </a>
 </h1>
 
+
+<p  align="center"> <a href="https://www.kaggle.com/code/roopamoorthy/google-data-analytics-capstone-project-cyclistic" target="_blank"> <img width="80%" src="https://github.com/roopadm/Google-Capstone-Project-R-Tableau-Cyclistic/blob/main/images/Rider%20Usage%20Analysis%20Google%20Data%20Analytics%20Capstone%20Project.png" /></a></p>
+
 Join me on my data-driven journey through the data of Cyclistic, a bike-share company in Chicago, we will explore how annual members and casual riders use their bikes differently. Utilize R for data cleaning and manipulation, and Tableau for data visualization, to seek answers to three key questions:
 
 - How do annual members and casual riders use Cyclistic bikes differently?
@@ -20,7 +23,6 @@ To uncover insights into rider usage patterns, identify the factors that drive c
 
 <b>For fully narative version of this project : <a href="https://www.kaggle.com/code/roopamoorthy/google-data-analytics-capstone-project-cyclistic">check out my Kaggle notebook.</a></b>
 
-<p align="center"> <a href="https://www.kaggle.com/code/roopamoorthy/google-data-analytics-capstone-project-cyclistic" target="_blank"> <img src="https://github.com/roopadm/Google-Capstone-Project-R-Tableau-Cyclistic/blob/main/images/Rider%20Usage%20Analysis%20Google%20Data%20Analytics%20Capstone%20Project.png" alt="Projectimage" width="80%" height="10%"/> </a> </p>
 
 ## Dataset 
 
@@ -142,4 +144,36 @@ For the share phase, the CSV file "Trips.csv" after cleaning is visualized in <a
 
 <p align="center"> <a href="https://public.tableau.com/app/profile/roopa.d.moorthy/viz/GoogleDataAnalyticsCapstoneProjectRiderUsageAnalysis/PopularStationsAnalysis?publish=yes" target="_blank"> <img src="https://github.com/roopadm/Google-Capstone-Project-R-Tableau-Cyclistic/blob/main/images/Popular%20Stations%20Analysis.png" alt="Countries" width="80%" height="50%"/> </a> </p>
 
+
+## Summary 
+
+- The total number of rides : 2,934,265
+- More Annual members than casual riders, 14.38 % more than casual riders.
+- The month with the maximum number of rides is August (20.64 % ) - 605652 total rides.
+- Riders type on the total number of rides each month: More annual member's rides than casual member's rides.
+- Seasons influence the number of rides, the winter season recorded less number of rides.
+- Weekends experienced a huge volume of rides.
+- The volume of bikers increases in the afternoon.
+
+
+## Act : Last step in data analysis process
+
+<b> The top recommendations based on findings: </b>
+
+1. About ~ 60.87 % Casual riders took more rides during July- September which are considered months of events and festivals in Chicago city. It is advisable to build marketing campaigns focusing on the top 10 stations in the month July-September. 
+
+   Using social media to post about contests like - #daretoride will attract casual riders and create an urge to avail benefits of added membership passes by winning      contests.
+
+2. Different pricing strategies like weekly passes and monthly/seasonal passes might improve conversion rates.
+
+3. Create an experience awarding discounts on cryptocurrencies or tokens as benefits, based on bike usage for those casual riders who avail membership.
+
+4. Mobile application for membership holders: Building cyclistic mobile applications with fitness trackers and, also with live local traffic information and weather updates would add more value to membership passes and increase conversion rates.
+
  
+
+## Check out my other projects too : :mag: 👨‍💻 🛰️
+
+<code>[An Analysis of Developer Communities: Insights from the 2022 Stack Overflow global Survey](https://github.com/roopadm/AnalyzingDevSurvey-Data-analysis-using-Python)</code> 📊
+
+<code>[A Deep Dive into Indian Hardware Company's Sales Performance: Profit and Revenue Analysis with SQL and Tableau ](https://github.com/roopadm/Sales-Performance-Analysis-using-SQL-and-Tableau-AtiQ/edit/main/README.md) </code> 📊
