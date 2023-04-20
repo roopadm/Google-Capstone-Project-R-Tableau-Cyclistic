@@ -126,12 +126,20 @@ For the share phase, the CSV file "Trips.csv" after cleaning is visualized in <a
 
 1. <a href ="https://public.tableau.com/app/profile/roopa.d.moorthy/viz/GoogleDataAnalyticsCapstoneProjectRiderUsageAnalysis/PopularStationsAnalysis?publish=yes">Trip Distribution </a>
 
-<p align="center"> <a href="https://public.tableau.com/app/profile/roopa.d.moorthy/viz/GoogleDataAnalyticsCapstoneProjectRiderUsageAnalysis/PopularStationsAnalysis?publish=yes" target="_blank"> <img src="https://github.com/roopadm/Google-Capstone-Project-R-Tableau-Cyclistic/blob/main/images/Screenshot%20(91).png" alt="Countries" width="50%" height="80%"/> </a> </p>
+<p align="center"> <a href="https://public.tableau.com/app/profile/roopa.d.moorthy/viz/GoogleDataAnalyticsCapstoneProjectRiderUsageAnalysis/PopularStationsAnalysis?publish=yes" target="_blank"> <img src="https://github.com/roopadm/Google-Capstone-Project-R-Tableau-Cyclistic/blob/main/images/Trip%20Distribution.png" alt="Countries" width="80%" height="50%"/> </a> </p>
 
 2. <a href ="https://public.tableau.com/app/profile/roopa.d.moorthy/viz/GoogleDataAnalyticsCapstoneProjectRiderUsageAnalysis/PopularStationsAnalysis?publish=yes"> Trip Analysis by Months </a>
-  
+
+<p align="center"> <a href="https://public.tableau.com/app/profile/roopa.d.moorthy/viz/GoogleDataAnalyticsCapstoneProjectRiderUsageAnalysis/PopularStationsAnalysis?publish=yes" target="_blank"> <img src="https://github.com/roopadm/Google-Capstone-Project-R-Tableau-Cyclistic/blob/main/images/Trip%20Analysis%20by%20Months.png" alt="Countries" width="80%" height="50%"/> </a> </p>
+
 3. <a href ="https://public.tableau.com/app/profile/roopa.d.moorthy/viz/GoogleDataAnalyticsCapstoneProjectRiderUsageAnalysis/PopularStationsAnalysis?publish=yes"> Trip anlayis by Hour </a>
-  
+
+<p align="center"> <a href="https://public.tableau.com/app/profile/roopa.d.moorthy/viz/GoogleDataAnalyticsCapstoneProjectRiderUsageAnalysis/PopularStationsAnalysis?publish=yes" target="_blank"> <img src="https://github.com/roopadm/Google-Capstone-Project-R-Tableau-Cyclistic/blob/main/images/Trip%20Analysis%20By%20Hour.png" alt="Countries" width="80%" height="50%"/> </a> </p>
+
+
 4. <a href="https://public.tableau.com/app/profile/roopa.d.moorthy/viz/GoogleDataAnalyticsCapstoneProjectRiderUsageAnalysis/PopularStationsAnalysis?publish=yes"> Popular start and end Station Analysis </a>
+
+
+<p align="center"> <a href="https://public.tableau.com/app/profile/roopa.d.moorthy/viz/GoogleDataAnalyticsCapstoneProjectRiderUsageAnalysis/PopularStationsAnalysis?publish=yes" target="_blank"> <img src="https://github.com/roopadm/Google-Capstone-Project-R-Tableau-Cyclistic/blob/main/images/Popular%20Stations%20Analysis.png" alt="Countries" width="80%" height="50%"/> </a> </p>
 
  
