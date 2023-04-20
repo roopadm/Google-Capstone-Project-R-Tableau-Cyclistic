@@ -40,7 +40,7 @@ I have used 12 months of data , April 2020 to March 2021. To get a brief look us
 * <a href="https://public.tableau.com/app/profile/roopa.d.moorthy/viz/GoogleDataAnalyticsCapstoneProjectRiderUsageAnalysis/PopularStationsAnalysis?publish=yes">Tableau</a><a href="https://public.tableau.com/app/profile/roopa.d.moorthy/viz/GoogleDataAnalyticsCapstoneProjectRiderUsageAnalysis/PopularStationsAnalysis?publish=yes" target="_blank" rel="noreferrer"> <img src="https://github.com/roopadm/Google-Capstone-Project-R-Tableau-Cyclistic/blob/main/images/tableau_logo-removebg-preview.png" alt="JupyterNotebook" width="25" height="25"/> </a>
 
 ##### R Libraries : 
-* <a href="https://www.tidyverse.org/">Tidyverse</a><a href="https://www.tidyverse.org/" target="_blank" rel="noreferrer"> <img src="https://github.com/roopadm/Google-Capstone-Project-R-Tableau-Cyclistic/blob/main/images/Tidyverse.png" alt="tidyverse" width="30" height="30"/> </a> |  <a href="https://cran.r-project.org/web/packages/skimr/vignettes/skimr.html">Skimr</a><a href="https://cran.r-project.org/web/packages/skimr/vignettes/skimr.html" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/mrankitgupta/mrankitgupta/2a582d085b324cff4917325112229027309ecae3/Numpy-logo.svg" alt="skimr" width="25" height="20"/> </a> |  <a href="https://dplyr.tidyverse.org/">dplyr</a><a href="https://dplyr.tidyverse.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/mrankitgupta/mrankitgupta/1331979c3208a15be2c2a6177ffc38ced3d6b434/Matplotlib_icon.svg" alt="dpylr" width="25" height="20"/> </a> |  <a href="https://seaborn.pydata.org">Seaborn</a><a href="https://seaborn.pydata.org" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="Seaborn" width="25" height="20"/> </a> |  <a href="https://realpython.com/python-folium-web-maps-from-data/#:~:text=Python's%20Folium%20library%20gives%20you,can%20share%20as%20a%20website.">Folium</a><a href="https://realpython.com/python-folium-web-maps-from-data/#:~:text=Python's%20Folium%20library%20gives%20you,can%20share%20as%20a%20website." target="_blank" rel="noreferrer"> <img src="https://github.com/roopadm/AnalyzingDevSurvey-Data-analysis-using-Python/blob/main/Images/folium%20logo.png" alt="Folium" width="20" height="20"/> </a>
+* <a href="https://www.tidyverse.org/">Tidyverse</a><a href="https://www.tidyverse.org/" target="_blank" rel="noreferrer"> <img src="https://github.com/roopadm/Google-Capstone-Project-R-Tableau-Cyclistic/blob/main/images/Tidyverse.png" alt="tidyverse" width="30" height="30"/> </a> |  <a href="https://cran.r-project.org/web/packages/skimr/vignettes/skimr.html">Skimr</a><a href="https://cran.r-project.org/web/packages/skimr/vignettes/skimr.html" target="_blank" rel="noreferrer"> <img src="https://github.com/roopadm/Google-Capstone-Project-R-Tableau-Cyclistic/blob/main/images/skimr.png" alt="skimr" width="30" height="30"/> </a> |  <a href="https://dplyr.tidyverse.org/">dplyr</a><a href="https://dplyr.tidyverse.org/" target="_blank" rel="noreferrer"> <img src="https://github.com/roopadm/Google-Capstone-Project-R-Tableau-Cyclistic/blob/main/images/dplyr.jpg" alt="dpylr" width="30" height="30"/> </a> |  <a href="https://www.rdocumentation.org/packages/janitor/versions/2.2.0">Janitor</a><a href="https://www.rdocumentation.org/packages/janitor/versions/2.2.0" target="_blank" rel="noreferrer"> <img src="https://github.com/roopadm/Google-Capstone-Project-R-Tableau-Cyclistic/blob/main/images/janitor.jpg" alt="Janitor" width="30" height="30"/> </a> |  <a href="https://lubridate.tidyverse.org/">lubridate</a><a href="https://lubridate.tidyverse.org/" target="_blank" rel="noreferrer"> <img src="https://github.com/roopadm/Google-Capstone-Project-R-Tableau-Cyclistic/blob/main/images/lubridate.png" alt="Lubridate" width="30" height="30"/> </a>
 
 ## To answer the key business questions : 🔍
 
@@ -64,3 +64,74 @@ Also,certain roadmap is followed :
 * Code, if required.
 * Guiding questions and their answers
 * Key tasks and deliverables as a checklist.
+
+## ASK : First step of data analysis process
+
+<b> `Business task` : Understand Annual and casual rider usage patterns to recommend marketing strategies to convert casual riders into annual members and how digital platforms could influence them. </b>
+ 
+## Prepare : Second step in data analysis process:
+
+`Data collection, identify how data is organized and determine data creadibility`.
+
+## Process : Third step in data analysis process
+
+`  Choose a tool for data cleaning, check errors in data, and document the cleaning process.`
+
+ I have used R language to import the dataset and check how the data is organized and ensure all the columns has the right data type.
+
+`Load Libraries`
+
+ `import CSV files for each month`
+ 
+ `know the structure data frames`
+ 
+ <b>* DATA CLEANING </b>
+ 
+ Decided to removed missing/blank values to make the merging all CSV files into one dataframe easier.
+ 
+ ` removed duplicated ride IDs`
+ 
+ ` convert date/timestamp to date/time `
+ 
+ ` create separte start and end date of trip `
+ 
+ ` create columns for month,day and year for all rides `
+ 
+ 
+<b>* DATA MANIPULATION  </b>
+ 
+ ` new column - duration and check for trip duartion in mins less than 0 `
+ 
+ ` filter to include rows with duration greater than 0 `
+ 
+ ` Arranging data in ascending order `
+ 
+ ` Save the clean data as CSV file `
+ 
+ ## Analyze
+ 
+ 1. Data Distribution : rider type
+ 
+ ` What is the percentage of Annual members and casual riders? `
+ 
+ 2. Monthly analysis : Rider type
+ 
+ 3. Weekly Analysis
+
+` Data Distribution by days of the week`
+
+## Share 
+
+For the share phase, the CSV file "Trips.csv" after cleaning is visualized in <a href ="https://public.tableau.com/app/profile/roopa.d.moorthy/viz/GoogleDataAnalyticsCapstoneProjectRiderUsageAnalysis/PopularStationsAnalysis?publish=yes">Tableau for presentation </a>.
+
+1. <a href ="https://public.tableau.com/app/profile/roopa.d.moorthy/viz/GoogleDataAnalyticsCapstoneProjectRiderUsageAnalysis/PopularStationsAnalysis?publish=yes">Trip Distribution </a>
+
+<p align="center"> <a href="https://public.tableau.com/app/profile/roopa.d.moorthy/viz/GoogleDataAnalyticsCapstoneProjectRiderUsageAnalysis/PopularStationsAnalysis?publish=yes" target="_blank"> <img src="https://github.com/roopadm/Google-Capstone-Project-R-Tableau-Cyclistic/blob/main/images/Screenshot%20(91).png" alt="Countries" width="50%" height="80%"/> </a> </p>
+
+2. <a href ="https://public.tableau.com/app/profile/roopa.d.moorthy/viz/GoogleDataAnalyticsCapstoneProjectRiderUsageAnalysis/PopularStationsAnalysis?publish=yes"> Trip Analysis by Months </a>
+  
+3. <a href ="https://public.tableau.com/app/profile/roopa.d.moorthy/viz/GoogleDataAnalyticsCapstoneProjectRiderUsageAnalysis/PopularStationsAnalysis?publish=yes"> Trip anlayis by Hour </a>
+  
+4. <a href="https://public.tableau.com/app/profile/roopa.d.moorthy/viz/GoogleDataAnalyticsCapstoneProjectRiderUsageAnalysis/PopularStationsAnalysis?publish=yes"> Popular start and end Station Analysis </a>
+
+ 
